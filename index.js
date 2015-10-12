@@ -1,6 +1,6 @@
 'use strict';
 
-let recursive = require('recursive-readdir');
+const recursive = require('recursive-readdir');
 
 recursive(__dirname, (err, files) => {
   if (err) {
